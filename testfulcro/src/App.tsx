@@ -1,3 +1,5 @@
+import Layout from "./layout/Layout"
+import Home from "./pages/home/Home.page"
 
 
 
@@ -5,7 +7,9 @@ function App() {
 
   return (
     <>
-HHello world
+      <Layout>
+        <Home/>
+      </Layout>
     </>
   )
 }
